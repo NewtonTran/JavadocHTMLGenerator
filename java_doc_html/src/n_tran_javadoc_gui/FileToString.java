@@ -11,7 +11,10 @@ import java.util.List;
 /**
  * @classname FileToString
  * @author newton
- * @description This class contains a method that reads the lines of a given '.txt' file and puts each line of that text file into a list. The other methods in the class are used to access this newly created list as well as the name of the file. All instances of this class will have a list containing strings of each line of the inputed text file, as well as a string of the file name.
+ * @description This class contains a method that reads the lines of a given '.txt' file and puts each line of
+ * that text file into a list. The other methods in the class are used to access this newly created list as well
+ * as the name of the file. All instances of this class will have a list containing strings of each line of the inputed 
+ * text file, as well as a string of the file name.
  */
 
 public class FileToString {
@@ -22,7 +25,9 @@ public class FileToString {
 	
 	/**
 	 * @methodname FileToString (constructor)
-	 * @description This constructor creates a list containing strings of each line of the given text file. This list is then assigned to the variable 'lineList'. This constructor also assigns the name of the file to 'fileName'.
+	 * @description This constructor creates a list containing strings of each line of the given text file. This
+	 * list is then assigned to the variable 'lineList'. This constructor also assigns the name of the file to 
+	 * 'fileName'.
 	 * @param fileName - name of the input file
 	 * @throws IOException
 	 */
