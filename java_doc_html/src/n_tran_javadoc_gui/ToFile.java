@@ -5,7 +5,10 @@ import java.io.IOException;
 /**
  * @classname ToFile
  * @author newton
- * @description This is the main class. this class uses methods from the other three classes to create the final html file. When using this class, put the name of the desired text file in the INPUT_NAME, put the same name in the OUTPUT_NAME but with .html instead of .txt. make sure the inputed text file is in the same project folder as this package before running this method.
+ * @description This is the main class. this class uses methods from the other three classes to create the final html file. 
+ * When using this class, put the name of the desired text file in the INPUT_NAME, put the same name in the OUTPUT_NAME but 
+ * with .html instead of .txt. make sure the inputed text file is in the same project folder as this package before running 
+ * this method.
  *
  */
 public class ToFile {
