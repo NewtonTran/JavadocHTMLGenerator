@@ -9,16 +9,21 @@ import java.nio.file.Paths;
 /**
  * @classname toHTML
  * @author newton
- * @description This class contains a method that will create the final string that will be written into a text file and saved as an html file, as well as the method that will actually write the html file.
+ * @description This class contains a method that will create the final string that will be written into a text file 
+ * and saved as an html file, as well as the method that will actually write the html file.
  */
 
 public class toHTML {
 
 	/**
 	 * @methodname appendString
-	 * @description This method takes in the arrayList of arrayLists of strings that are already formatted for HTML and returns one large string using StringBuilder. this large string when saved as an HTML file, will create an HTML page with all the necessary information from the original text file provided. This method appends every line in the arrayList of arrayLists of lines to a master string using StringBuilder.
+	 * @description This method takes in the arrayList of arrayLists of strings that are already formatted for HTML 
+	 * and returns one large string using StringBuilder. this large string when saved as an HTML file, will create an
+	 * HTML page with all the necessary information from the original text file provided. This method appends every 
+	 * line in the arrayList of arrayLists of lines to a master string using StringBuilder.
 	 * @param formattedLines - an arrayList of arrayLists that contain formatted lines of the comment blocks for HTML
-	 * @return String - a master string that contains every formatted line created. When this string is written and saved as an html file, the html file will contain all the necessary information from the original text file formatted correctly.
+	 * @return String - a master string that contains every formatted line created. When this string is written and saved 
+	 * as an html file, the html file will contain all the necessary information from the original text file formatted correctly.
 	 */
 	public static String appendString(ArrayList<ArrayList<String>> formattedLines){
 		//These are just fillers so errors don't occur
