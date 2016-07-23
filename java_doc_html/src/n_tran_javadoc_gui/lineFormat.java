@@ -4,7 +4,10 @@ import java.util.*;
 /**
  * @classname lineFormat
  * @author newton 
- * @description This class contains methods that format the regular lines of text to HTML. To use this class, appropriate keywords must be used when creating comments. For example, for a description, use "@description" before writing the description. the name of the class or method followed by the author must be used before the other keywords. for example, " @.methodname name \n @.author author \n @.description description...". 
+ * @description This class contains methods that format the regular lines of text to HTML. To use this class, appropriate 
+ * keywords must be used when creating comments. For example, for a description, use "@description" before writing the 
+ * description. the name of the class or method followed by the author must be used before the other keywords. for example, 
+ * " @.methodname name \n @.author author \n @.description description...". 
  */
 
 public class lineFormat {
@@ -13,7 +16,10 @@ public class lineFormat {
 	
 	/**
 	 * @methodname format
-	 * @description This method takes in an arrayList of arrayLists that contain strings of unformatted text for HTML then returns an arrayList of arrayLists of formatted lines of text with appropriate HTML tags. This method will look for keywords and when a keyword is found, the method will create a string starting with an HTML tag, then the substring following the HTML tag, then the closing HTML tag. This string then replaces the unformatted version of itself.
+	 * @description This method takes in an arrayList of arrayLists that contain strings of unformatted text for HTML then 
+	 * returns an arrayList of arrayLists of formatted lines of text with appropriate HTML tags. This method will look for
+	 * keywords and when a keyword is found, the method will create a string starting with an HTML tag, then the substring
+	 * following the HTML tag, then the closing HTML tag. This string then replaces the unformatted version of itself.
 	 * @param unformattedLines - an arrayList of arrayLists that contain the unformatted lines of the comment blocks for HTML
 	 * @return formattedLines - an arrayList of arrayLists that contain formatted lines of the comment blocks for HTML
 	 */
@@ -77,7 +83,9 @@ public class lineFormat {
 	
 	/**
 	 * @methodname checkAsterisk
-	 * @description This method takes in the raw text from the file given and organizes it into arrayLists. an arraylist is created for each comment block from the text file given and these arrayLists are stored in another arrayList. The final product of this method is an arrayList of arrayLists that each contain a block of comments.
+	 * @description This method takes in the raw text from the file given and organizes it into arrayLists. an arraylist is
+	 * created for each comment block from the text file given and these arrayLists are stored in another arrayList. The final
+	 * product of this method is an arrayList of arrayLists that each contain a block of comments.
 	 * @param lineList - list of each line from the inputed text file
 	 * @return tempArrayListA - arrayList of arrayLists that each contain the lines of a comment block
 	 */
