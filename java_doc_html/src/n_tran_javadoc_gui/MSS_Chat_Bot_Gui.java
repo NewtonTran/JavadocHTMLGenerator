@@ -1,4 +1,6 @@
 package n_tran_javadoc_gui;
+
+/* THIS CODE WAS WRITTEN BY MY HIGH SCHOOL CS TEACHER MR. G. MURZAKU */
 /**************************************************************************/
 /*
  * HERE IS WHERE YOU WILL IMPORT YOUR PACKAGE
